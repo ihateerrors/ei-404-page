@@ -50,9 +50,11 @@ h1 {
 
 }
 
+.carousel-inner {
+    width: 85%;
+    margin: 0 auto;
+}
 
-
-
-
-
-
+.sub-header {
+    text-align: center;
+}
