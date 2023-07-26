@@ -1,0 +1,58 @@
+
+:root {
+    --color-body-bg: #fff;
+    --color-footer-bg: #57585A;
+    --color-footer-text: #D1D3D4;
+    --color-body-text: #57585a;
+
+}
+
+body {
+    color: var(--color-body-text);
+    background-color: var(--color-body-bg);
+    font-family: "Helvetica W01 Light",Arial,sans-serif;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+
+
+
+
+
+.max-width {
+    max-width: 1200px;
+}
+#footer {
+    background-color: var(--color-footer-bg);
+    color: var(--color-footer-text);
+    font-size: .9rem;
+}
+
+#footer ul,
+#footer li,
+#footer a {
+    list-style: none;
+    color: var(--color-footer-text);
+    
+}
+
+
+#footer .footer-header > a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2rem;
+    font-size: 1rem;
+
+}
+
+
+
+
+
+
+
